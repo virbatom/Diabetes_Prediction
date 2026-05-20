@@ -16,7 +16,7 @@ benchmarking three classifiers with cross-validation.
  
 ---
  
-## 📊 Project at a Glance
+## Project at a Glance
  
 | Detail | Value |
 |---|---|
@@ -25,11 +25,11 @@ benchmarking three classifiers with cross-validation.
 | **Target** | `diagnosed_diabetes` (binary 0 / 1) |
 | **Class balance** | ~60% diabetes / ~40% no diabetes |
 | **Models compared** | Logistic Regression, Random Forest, Gradient Boosting |
-| **🏆 Best result** | **ROC AUC = 0.947** (Gradient Boosting, 5-fold CV) |
+| **Best result** | **ROC AUC = 0.947** (Gradient Boosting, 5-fold CV) |
  
 ---
  
-## 🎯 Objective
+## Objective
  
 Build and compare classification models to predict diabetes diagnosis, with
 emphasis on:
@@ -44,7 +44,7 @@ emphasis on:
    vs. false positives in a medical context)
 ---
  
-## 🗂️ Repository Structure
+## Repository Structure
  
 ```
 Diabetes_Prediction/
@@ -57,7 +57,7 @@ Diabetes_Prediction/
  
 ---
  
-## 📋 Dataset
+## Dataset
  
 The dataset contains 31 variables grouped into four categories:
  
@@ -136,7 +136,7 @@ trade off some false positives for fewer missed cases.
  
 ---
  
-## 🛠️ Tech Stack
+## Tech Stack
  
 - **Python 3.10+**
 - **pandas**, **NumPy** — data manipulation
@@ -145,7 +145,7 @@ trade off some false positives for fewer missed cases.
 - **scikit-learn** — modelling, pipelines, cross-validation, KNN imputation
 ---
  
-## 🚀 How to Run
+## How to Run
  
 ### Option 1 — view the rendered notebook (no setup)
 Open [`Diabetes_Prediction.html`](Diabetes_Prediction.html) in any browser.
@@ -172,7 +172,7 @@ The random seed is fixed (`SEED = 296`) so results are fully reproducible.
  
 ---
  
-## 📝 Key Takeaways
+## Key Takeaways
  
 1. **Gradient Boosting wins** — best ROC AUC (0.947) with ~92% overall
    accuracy.
@@ -186,7 +186,7 @@ The random seed is fixed (`SEED = 296`) so results are fully reproducible.
    would require post-hoc threshold tuning in any real deployment.
 ---
  
-## 📬 Contact
+## Contact
  
 Built by **Tomáš Virba** as part of a Master's-level data-science portfolio.
  
