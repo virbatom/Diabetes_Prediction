@@ -4,15 +4,14 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikit-learn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
  
 A complete end-to-end machine-learning pipeline that predicts whether a patient
 has diagnosed diabetes based on demographics, lifestyle habits, and clinical
-biomarkers. Built as a portfolio project covering the full data-science
+biomarkers. Covering the full data-science
 workflow: EDA, statistical testing, imputation, feature engineering, and
 benchmarking three classifiers with cross-validation.
  
-> **Author:** Tomáš Virba — MSc. Econometrics & Operations Research, Prague
+> **Author:** Tomáš Virba —  Econometrics & Operations Research, Prague
 > University of Economics and Business (VŠE)
  
 ---
